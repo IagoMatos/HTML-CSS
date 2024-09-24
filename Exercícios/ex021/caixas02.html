@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+
+        body {
+            background-image: linear-gradient(to right, #A3D6F2, #C0DFF9);
+            margin: 0px;
+        }
+        header {
+            background-color:#DCF8FF;
+            padding: 5px;
+            border-radius: 5px;
+            width: auto;
+            margin: 12px;
+            
+        }
+        header > h1 {
+            font-family: "Lexend", sans-serif;
+            font-size: 3em;
+            text-align: center;
+            text-transform: uppercase;
+            padding: 0px 5px;
+            color:hsla(197, 71%, 50%, 0.514);
+        }
+
+        header > nav {
+            background-color:hsla(197, 71%, 50%, 0.514);
+            border-radius: 2px;
+            padding: 1px;
+            margin: 3px;
+            box-shadow: 1px 1px 7px hsl(197, 71%, 20%, 0.35) ;
+        }
+
+        #links > a {
+            margin: 0em 3em;
+            text-decoration: none;
+            color:  #DCF8FF;
+        }
+
+        nav{
+            text-align: center;
+        }
+
+        
+        main{
+            background-color: #DCF8FF;
+            margin: 16px 12px 36px 12px;
+            padding: 10px;
+            border-radius: 5px;
+            
+        }
+        article > p {
+            text-align: justify;
+            text-indent: 1em;
+            padding: 0px 5px;
+        }
+
+        #assuntos{
+            text-align: center;
+            background-color:hsla(197, 71%, 50%, 0.514);
+            border-radius: 3px;
+        }
+        #assuntos > p {
+            display: inline;
+            margin: 0em 3em;
+            color: #DCF8FF;
+        }
+
+        #noticias {
+            font-family:"Lexend", sans-serif;
+            color: #4C6873;
+        }
+        aside {
+            text-align: right;
+            font-size: ;
+        }
+
+        footer {
+            background-color:hsl(197, 71%, 40%);
+            margin: 0px;
+            text-align: center;
+            padding: 2px;
+        }
+        footer > p {
+            color: #a3d6f2;
+            font-family:"Lexend", sans-serif;
+            text-decoration: none;
+            margin: 0px;
+            padding: 6px;
+        }
+
+        footer > nav {
+            color: #a3d6f2;
+            font-family:"Lexend", sans-serif;
+            text-decoration: none;
+        }
+
+       
+
+        #links :hover {
+            text-decoration: underline;
+            color: hwb(207 37% 8%);
+        }
+
+        #contact > a {
+            text-decoration: none;
+            color: #a3d6f2;
+        }
+
+        #contact :hover {
+            text-decoration: underline;
+            color: hwb(207 37% 8%);
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <header>
+        <h1> Site De Teste </h1>
+        <nav id="links">
+                <a href="#">Link</a>
+                <a href="#">Link</a>
+                <a href="#">Link</a>
+                <a href="#">Link</a>
+                <a href="#">Link</a>
+        </nav>
+    </header>    
+
+    <main>
+        <section id="assuntos">
+            <p>Conteúdo</p>
+            <p>Termos de Privacidade</p>
+            <p>Contatos</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícias</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae aspernatur consectetur alias mollitia recusandae animi rerum saepe, veniam neque quisquam repellat voluptatem! Beatae blanditiis maiores illum, ratione necessitatibus nobis inventore? Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga possimus quo vero odit dignissimos velit blanditiis quas doloribus eius porro similique nihil magnam molestiae, autem enim sequi laborum amet officia. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo deserunt ut voluptatem. Facere beatae quasi placeat, officia dolore aut cupiditate quam commodi incidunt eos expedita distinctio delectus, cumque saepe. Dolorum!</p>
+                <aside>Escrito por Iago Matos</aside>
+                <h2>Mais Notícias</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor tempora veniam saepe, fugit voluptatem nesciunt perspiciatis, ut corrupti quaerat fuga enim, obcaecati quae. Commodi corporis omnis minus aliquid et porro. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem sit est ea quo provident? Qui deserunt quo repellat, porro, fuga expedita praesentium soluta officia, omnis sint possimus animi consequuntur vel? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores, adipisci quis consequuntur molestiae dolor nulla repellendus fuga, explicabo accusamus quam, amet quisquam quos praesentium velit. Esse reprehenderit dolore voluptatibus corrupti. Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, tenetur officiis ratione, ea consectetur est ducimus necessitatibus odit minima placeat voluptatem, voluptatibus ex laborum omnis voluptate sequi? Tempora, quae atque? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos distinctio animi unde at optio laboriosam, inventore architecto vitae est laborum eligendi amet. Voluptates ut fugiat delectus officiis, sunt impedit quas.</p>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>Entre em contato</p>
+        <nav id="contact">
+            <a  href="mailto:iagomatos215@gmail.com" >iagomatos215@gmail.com</a>
+        </nav>
+    </footer>
+</body>
+</html>
